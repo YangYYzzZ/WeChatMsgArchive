@@ -125,7 +125,6 @@ cd WeChatMsg
 # 2. 创建虚拟环境（推荐）
 python -m venv venv
 venv\Scripts\activate  # Windows
-# source venv/bin/activate  # Linux/Mac
 
 # 3. 安装依赖
 pip install -r requirements.txt
@@ -136,6 +135,8 @@ python 1-decrypt.py    # 解密微信数据库
 python 2-contact.py    # 查看联系人
 python 3-exporter.py   # 导出聊天记录
 ```
+
+**注意：** 数据库解密功能仅支持 Windows 系统。导出功能理论上支持其他系统（需先在 Windows 上完成解密）。
 
 ### 详细文档
 
