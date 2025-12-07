@@ -122,10 +122,15 @@
 git clone https://github.com/LC044/WeChatMsg.git
 cd WeChatMsg
 
-# 2. 安装依赖
+# 2. 创建虚拟环境（推荐）
+python -m venv venv
+venv\Scripts\activate  # Windows
+# source venv/bin/activate  # Linux/Mac
+
+# 3. 安装依赖
 pip install -r requirements.txt
 
-# 3. 运行示例
+# 4. 运行示例
 cd example
 python 1-decrypt.py    # 解密微信数据库
 python 2-contact.py    # 查看联系人
