@@ -115,10 +115,28 @@
 
 ## 源码运行
 
-[使用示例](./example/README.md)
-[详见开发者手册](./doc/开发者手册.md)
+### 快速开始
 
-[AI聊天](./MemoAI/readme.md)
+```bash
+# 1. 克隆项目
+git clone https://github.com/LC044/WeChatMsg.git
+cd WeChatMsg
+
+# 2. 安装依赖
+pip install -r requirements.txt
+
+# 3. 运行示例
+cd example
+python 1-decrypt.py    # 解密微信数据库
+python 2-contact.py    # 查看联系人
+python 3-exporter.py   # 导出聊天记录
+```
+
+### 详细文档
+
+- 📖 [完整开发者手册](./doc/开发者手册.md) - **推荐阅读**，包含详细的安装、配置和使用说明
+- 📝 [使用示例](./example/README.md) - 快速上手示例代码
+- 🤖 [AI聊天指南](./MemoAI/readme.md) - 训练个人专属AI
 
 ## PC端使用过程中部分问题解决（可参考）
 
